@@ -1,6 +1,7 @@
 input[type=radio]{
     display: none;
 }
+
 .btnchoix{
     display: inline-block;
     padding: 10px 20px;
@@ -11,11 +12,7 @@ input[type=radio]{
     font-weight: bold;
     margin-top: 200px;
 }
-fieldset>label{
-    display: inline;
-    width: 140px;
-    text-align: center;
-}
+
 #connexion:checked~label[for="connexion"]{
      background-color: grey;
      color: white;
@@ -43,5 +40,11 @@ fieldset{
     border-radius: 20px;
     border: none;
     height: 180px;
+    width: 100%;
+    box-sizing: border-box;
 }
- 
+fieldset>label{
+    text-align: center;
+    display: block;
+}
+  
