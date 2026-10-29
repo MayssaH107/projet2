@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+</head>
+<body>
+   <input type="radio" id="connexion" name="choix" checked  >
+   <input type="radio" name="choix" id="inscription" >
+
+   <label for="connexion" class="btnchoix">Vous avez déjà un compte?</label>
+   <label for="inscription" class="btnchoix">Créer un nouveau compte</label>
+   <section class="formconnexion">
+    <fieldset>
+        
+        <label for="user">Nom Utilisateur:</label>
+        <input type="text" name="user"><br>
+        <label for="pw">Mot De Passe:</label>
+        <input type="password" name="pw"><br>
+    </fieldset>
+   </section>
+   <section class="forminscription">
+    <fieldset>
+        
+        <label for="useri">Nom Utilisateur:</label>
+        <input type="text" name="useri"><br>
+        <label for="mail">Eail:</label>
+        <input type="email" name="mail" placeholder="exemple@gmail.com"><br>
+        <label for="pwi">Mot De Passe:</label>
+        <input type="password" name="pwi" id="pass"><br>
+        <label for="pw2">Verifiez votre mot de passe:</label>
+        <input type="password" name="pw2" id="pass2">
+
+    </fieldset>
+   </section>
+   <input type="button" value="log in" id="btn" onclick="window.location.href='index.html'">
+     
+       
+</body>
+</html>

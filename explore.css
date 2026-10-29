@@ -1,0 +1,40 @@
+
+section{
+    column-count: 3;
+    grid-auto-rows: 150px;
+    margin: 20px;
+ 
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    margin: 10px;
+}
+img:hover{
+    filter: brightness(0.4);
+}
+
+#profile{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 60px;
+}
+#username ,h3{
+    margin-top: 140px;
+    margin-left: 20px;
+}
+
+.profileinfo{
+    display: flex;
+    padding: 30px;
+}
+.myposts{
+    display: flex;
+    width: 240px;
+    height: 180%;
+    border-radius: 8px;
+    margin: 10px;
+}

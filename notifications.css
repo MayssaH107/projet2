@@ -1,0 +1,39 @@
+
+section{
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-top: 20px;  
+}
+#friend{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 8px;
+    
+}
+
+
+div{
+    display: flex;
+}
+section:hover{
+    filter: brightness(0.8);
+}
+p{
+    margin-left: 30px;
+    
+}
+#nonlu{
+    color: blue;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+b{
+    margin-left: 30px;
+    font-size: small;
+    font-weight: normal;
+    margin-top: 20px;
+}
+

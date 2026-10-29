@@ -1,0 +1,47 @@
+input[type=radio]{
+    display: none;
+}
+.btnchoix{
+    display: inline-block;
+    padding: 10px 20px;
+    
+    background-color: #e0e0e0;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+fieldset>label{
+    display: inline;
+    width: 140px;
+    text-align: center;
+}
+#connexion:checked~label[for="connexion"]{
+     background-color: grey;
+     color: white;
+}
+#inscription:checked~label[for="inscription"]{
+     background-color: grey;
+     color: white;
+}
+
+section{
+    display: none;
+    margin-top: 15px;
+}
+#connexion:checked ~.formconnexion{
+    display: block;
+}
+#inscription:checked~.forminscription{
+    display: block;
+}
+body{
+    text-align: center;
+}
+fieldset{
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: none;
+    height: 180px;
+}
+ 

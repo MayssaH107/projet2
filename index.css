@@ -1,0 +1,106 @@
+body{
+    display: flex;
+}
+main{
+    min-height: 800px;
+    width: 60%;
+    margin-left: 200px;
+    
+}
+aside{
+    height: 100%;
+    width: 25%;
+    margin: 20px;
+    
+}
+nav{
+    height: 100%;
+    width: 13%;
+    position: fixed;
+    background-color: aliceblue;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+a{
+    color:rgb(65, 65, 165);
+}
+a:hover{
+    color: bisque;
+    text-shadow: 2px 2px 4px #040404;
+}
+li:hover{
+    font-size: larger;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+#friend{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    padding-bottom: 10px;
+}
+.ami{
+    display: flex;
+}
+h4{
+    margin: 10px;
+}
+textarea{
+    border-radius: 20px;
+   width: 100%;
+   height: 100px;
+    
+    
+}
+#post{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 20px;
+}
+section , aside>div{
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+
+}
+section:hover, aside>div:hover{
+    filter: brightness(0.8);
+}
+#search{
+    height: 40px;
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+#profile{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 60px;
+}
+#username ,h3{
+    margin-top: 140px;
+    margin-left: 20px;
+}
+.info{
+    display: flex;
+    padding: 30px;
+}
+h2{
+    color: #111827;
+}
+.trending{
+    color: blue;
+}
+
